@@ -1,0 +1,133 @@
+
+/*#F28D8D
+#F27272
+#F2A29B
+#F2D5CE
+#D9AB9A*/
+
+
+@charset "utf-8";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: transparent;
+    
+    
+    padding-top: 56px;
+}
+
+header {
+    color: #F2A29B;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 645px;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+.address {
+    margin-bottom: 20px; /* Ajuste a margem conforme necessário */
+}
+
+.footer {
+   
+    
+    
+    margin-top: 20px; /* Ajuste a margem conforme necessário */
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 60px;
+}
+
+.footer p,
+.footer a {
+   
+    margin-bottom: 40px 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg-transparent {
+    background-image: url('minhasFotos/tatii.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    
+    
+   
+}
+
+.scrollspy-example {
+    position: relative;
+    z-index: 0;
+}
+
+.fundo {
+    margin: 0;
+}
+
+section p {
+    background: linear-gradient(#F2D5CE, #e4d6d1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-container{
+    background: linear-gradient(#F2D5CE, #e4d6d1);
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar {
+    
+    background: linear-gradient(to left, rgba(242, 213, 206, 0.7), rgba(242, 213, 206, 0) 50%, rgba(246, 218, 208, 0));
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.image-container img {
+    margin: 0 10px; /* Espaçamento entre as imagens, ajuste conforme necessário */
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
