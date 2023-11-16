@@ -1,11 +1,3 @@
-
-/*#F28D8D
-#F27272
-#F2A29B
-#F2D5CE
-#D9AB9A*/
-
-
 @charset "utf-8";
 
 body {
@@ -144,21 +136,9 @@ section p {
     .image-container img {
         margin: 10px 0; /* Espaçamento entre as imagens ajustado para telas menores */
     }
+    .bg-transparent {
+        background-attachment: scroll; /* Remova o efeito parallax para dispositivos móveis */
+        background-position: center center; /* Centralize a imagem */
+        padding-top: 30px; /* Ajuste o espaçamento no topo conforme necessário */
+    }
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
