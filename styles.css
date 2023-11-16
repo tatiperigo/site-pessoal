@@ -114,6 +114,37 @@ section p {
 .image-container img {
     margin: 0 10px; /* Espaçamento entre as imagens, ajuste conforme necessário */
 }
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        padding-top: 56px; /* Mantenha o mesmo padding para o topo */
+    }
+
+    header {
+        padding: 10px; /* Reduza o padding do cabeçalho */
+    }
+
+    .section {
+        margin: 20px; /* Adapte a margem para telas menores */
+    }
+
+    .footer {
+        padding: 20px; /* Reduza o padding do rodapé */
+    }
+
+    .navbar {
+        background: linear-gradient(to left, rgba(242, 213, 206, 0.7), rgba(242, 213, 206, 0) 50%, rgba(246, 218, 208, 0));
+        border-radius: 0; /* Remova a borda arredondada */
+    }
+
+    .image-container {
+        flex-direction: column; /* Coloque as imagens em uma coluna em telas menores */
+    }
+
+    .image-container img {
+        margin: 10px 0; /* Espaçamento entre as imagens ajustado para telas menores */
+    }
+}
 
 
 
